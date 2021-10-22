@@ -84,6 +84,10 @@
 console.log(pet.eat())
 console.log(pet["drink"]())
 
+let order =  (`${drinksOrdered} + ${foodOrdered}`)
+
+
+console.log(Your order is) //all items priced individaully and then with total
 
 
 //console.log(coffeeShop.drinksOrdered())
@@ -103,3 +107,6 @@ console.log(pet["drink"]())
 // cashWithdrawal(1221, balance, 500, 50449921)
 // cashWithdrawal(1221, balance, 1250, 50449921)
 // cashWithdrawal(1222, balance, 1250, 50449921)
+
+
+

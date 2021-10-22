@@ -19,7 +19,7 @@ let shift = numbers.shift()
 let unshift = numbers.unshift(36)
 let splice = numbers.splice(2, 0, "Lemon", "Kiwi")
 
-console.log(map, shift, unshift)
+console.log(map, shift, unshift, splice)
 
 // --- Loops ---
 // --- Activity 1 ---

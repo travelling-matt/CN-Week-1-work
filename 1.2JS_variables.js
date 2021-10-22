@@ -41,7 +41,6 @@ console.log (`My name is ${name}. I love food and hate waste. Tomorrow I will be
 */
 
 //Activity3 - days from today to your birthday
-
 //let today = new Date();
 //let birthdate = new Date(1972, 07, 30);
 //let nextBirthday = new Date(2022, 07, 30);
@@ -66,19 +65,6 @@ let days = Math.round((birthday - today) / 86400000);
 console.log(`The number of days until my next birthday is ${days}`);
 */
 
-/*
-let space1 = "x"
-let space2 = "o"
-let space3 = " "
-let space4 = "x"
-let space5 = "x"
-let space6 = " "
-let space7 = "o"
-let space8 = " "
-let space9 = " "
-*/
-
-
 /*From CN
 // Activity 3
 // To set two dates to two variables. We have to use the Date Object.
@@ -92,29 +78,30 @@ let diffInDays = Math.floor(diffInTime / (1000 * 3600 * 24));
 console.log(`The difference between ${todaysDate} and ${birthDay} is ${diffInDays} days.`);
 */
 
-/* Activity 4 - Expected Answer
-let space1 = "x";
-let space2 = "o";
-let space3 = " ";
-let space4 = "x";
-let space5 = "x";
-let space6 = " ";
-let space7 = "o";
-let space8 = " ";
-let space9 = " ";
-let space0 = " ";
-let i = "|";
-let j = "-----------";
+//Activity 4 - 
 
-console.log (`${space0}${i}${space0}${i}`);
-console.log (`${space1}${i}${space2}${i}${space3}`);
-console.log (`${space0}${i}${space0}${i}`);
-console.log(`${j}`);
-console.log (`${space0}${i}${space0}${i}`);
-console.log (`${space4}${i}${space5}${i}${space6}`);
-console.log (`${space0}${i}${space0}${i}`);
-console.log(`${j}`);
-console.log (`${space0}${i}${space0}${i}`);
-console.log (`${space7}${i}${space8}${i}${space9}`);
-console.log (`${space0}${i}${space0}${i}`);
-*/
+// let space0 = " x ";
+// let space1 = " o ";
+// let space2 = "   ";
+// let space3 = " x ";
+// let space4 = " x ";
+// let space5 = "   ";
+// let space6 = " o ";
+// let space7 = "   ";
+// let space8 = "   ";
+// let empty = "   ";
+
+// let i = "|";
+// let j = "-----------";
+
+// console.log(`${empty}${i}${empty}${i}${empty}`);
+// console.log(`${space0}${i}${space1}${i}${space2}`);
+// console.log(`${empty}${i}${empty}${i}${empty}`);
+// console.log(`${j}`);
+// console.log(`${empty}${i}${empty}${i}${empty}`);
+// console.log(`${space3}${i}${space4}${i}${space5}`);
+// console.log(`${empty}${i}${empty}${i}${empty}`);
+// console.log(`${j}`);
+// console.log(`${empty}${i}${empty}${i}${empty}`);
+// console.log(`${space6}${i}${space7}${i}${space8}`);
+// console.log(`${empty}${i}${empty}${i}${empty}`);

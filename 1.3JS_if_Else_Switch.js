@@ -1,18 +1,14 @@
-/* not working yet
-let weather ="summer";
-
-if (weather == "sunny") {
-    console.log("Yay, better grab a hat!")
-}else if (weather == "rainy") {
-    console.log("Better grab a brolly")
-}else if (weather == "windy") {
-    else 
-        console.log ("I'm sorry I don't understand!")    }
-*/
-
+// let weather ="cheese";
+// if (weather == "sunny") {
+//     console.log("Yay, better grab a hat!")
+// }else if (weather == "rainy") {
+//     console.log("Better grab a brolly")
+// }else {
+//         console.log ("I'm sorry I don't understand!")
+//     }
 
 // == equal
-// === strict equal (tyoe needs to be the same, as well as value)
+// === strict equal (type needs to be the same, as well as value)
 
 /*
 let i = 10;
@@ -101,7 +97,7 @@ if(password.length < 8){
     console.log("Password is too short!");
 }
 else{
-    console.log(`${password}`);
+    vowel.log(`${password}`);
 }
 */
 
@@ -158,43 +154,22 @@ else {
 }
 */
 
-//Activity 7 - last vowel
+//Activity 7 - last vowel - struggled, reverse engineered
 
-/*const str = "jrfndklhgfndjkjlkgperfijfhdknsadcvjhiiohjfkledsopiuhgtyujwsdxcvhgfdjhiopiwquhejkdsoiufghedjwshi";
-let strLength = (str.length);
-    console.log(strLength)
-//let array1 = str1.split('');
-//console.log(`${array1}`)
-const vowel = "a"||"e"||"i"||"o"||"u"
-let i = str.length;
-    console.log(i)
-if(charAt(i) = vowel){
-    console.log(i)
-}
-else if
-*/
-
-let str = "jrfndklhgfndjkjlkgperfijfhdknsadcvjhiiohjfkledsopiuhgtyujwsdxcvhgfdjhiopiwquhejkdsoiufghedjwshi";
-    console.log(str.lastIndexOf("a"||"e"||"i"||"o"||"u"))
-
-
-//start at end
-//if character is a vowel find position and console log else -1 and try again 
-//Logic.
-//Go to last character. Is it a a vowel? If yes console.log character position. If no i--1 and repeat.
-//If yes break.
-//When i < 0 break
-
-//console.log(str1.endsWith(vowel));
-//if(array1.charAt(str1Length) = vowel){
- //   console.log(array.charAt())
-//}
-//else {
-//    console.log(false)
-//}
-
-
-
+// let word = "jrfndklhgfndjkjlkgperfijfhdknsadcvjhiiohjfkledsopiuhgtyujwsdxcvhgfdjhiopiwquhejkdsoiufghedjwshi";
+// let vowelArr = ['a', 'e', 'i', 'o', 'u'];
+// let highestIndex = 0;
+// //loop through vowelArr until i is higher than length of array
+// for (let i=0; i <vowelArr.length; i++) {
+//     //console.log(word.lastIndexOf(vowelArr[i]));
+//     index = word.lastIndexOf(vowelArr[i]);
+// if (index >= highestIndex){
+//     highestIndex = index;
+//     lastVowel = vowelArr[i];
+// }
+// }
+// console.log(lastVowel);
+// console.log(highestIndex);
 
 
 //Activity 8 - 1st and last letters the same? - works

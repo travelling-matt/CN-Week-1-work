@@ -15,7 +15,7 @@ coffeeOrder.pop()
     console.log(coffeeOrder);
     */
 
- //favouriteSongs - works
+//Array Activity 1 - favouriteSongs - works
 /*let favSongs = [
     "Norman Bass - How U Like Bass",
     "Lynard Skynard - Freebird",
@@ -29,6 +29,24 @@ favSongs.pop();
 favSongs.unshift("John Coltrane - A Love Supreme");
     console.log(favSongs);
     */
+
+//Array Activity 2 - other array methods - work
+// let favSongs = [
+//     "Norman Bass - How U Like Bass",
+//     "Lynard Skynard - Freebird",
+//     "Rage Against The Machine - Killing In The Name Of",
+// ];
+//     //console.log(favSongs);
+// favSongs.push("Eminen - Rap God", "Demi Lovato - Solo");
+//     //console.log(favSongs);
+// favSongs.pop();
+//     //console.log(favSongs);
+// favSongs.shift();
+//     //console.log(favSongs);
+// favSongs.unshift("John Coltrane - A Love Supreme");
+//     //console.log(favSongs);
+// favSongs.splice(1);
+//     //console.log(favSongs)
 
 //FavouriteDrinks - works
 /*
@@ -162,47 +180,42 @@ for (let i = 0; i < 6; i++) {
 */
 
 //Activity 6 - Mutual followers - works
-/*
-let bobsFollowers = [
-    "Bill",
-    "Ben",
-    "Jill",
-    "Pen"
-];
-let hannahsFollowers = [
-    "Peter",
-    "Pen",
-    "Wendy",
-    "Jill"
-];
-//let mutualFollowers = []
-let j = 0
-for (let i = 0; i < bobsFollowers.length; i++) {
-    if (bobsFollowers[i] == hannahsFollowers[j]){
-    //mutualFollowers.push(i);
-    console.log(bobsFollowers[i])
-    }
-    else {
-    for (let j = 1; j < hannahsFollowers.length; j++){
-    if (bobsFollowers[i] == hannahsFollowers[j]){
-        //mutualFollowers.push(i);
-        console.log(bobsFollowers[i])
-        }
-}
-}
-}
-//console.log(mutualFollowers)
-*/
-let bobsFollowers = ["Jack", "John", "Paul", "Jill"];
-let hannahsFollowers = ["Borris", "Bill", "Jack", "Jill"];
+// let bobsFollowers = [
+//     "Bill",
+//     "Ben",
+//     "Jill",
+//     "Pen"
+// ];
+// let hannahsFollowers = [
+//     "Peter",
+//     "Pen",
+//     "Wendy",
+//     "Jill"
+// ];
+// let j = 0
+// for (let i = 0; i < bobsFollowers.length; i++) {
+//     if (bobsFollowers[i] == hannahsFollowers[j]){
+//     console.log(bobsFollowers[i])
+//     }
+//     else {
+//     for (let j = 1; j < hannahsFollowers.length; j++){
+//     if (bobsFollowers[i] == hannahsFollowers[j]){
+//         console.log(bobsFollowers[i])
+//         }
+// }
+// }
+// }
 
-for(let i = 0; i < bobsFollowers.length; i++){
-    for(let j = 0; j < hannahsFollowers.length; j++){
-        if(bobsFollowers[i] === hannahsFollowers[j]){
-            console.log(hannahsFollowers[j])
-        }
-    }
-}
+//more research done on nested loops. I now understand the code below
+// let bobsFollowers2 = ["Jack", "John", "Paul", "Jill"];
+// let hannahsFollowers2 = ["Borris", "Bill", "Jack", "Jill"];
+// for(let i = 0; i < bobsFollowers2.length; i++){
+//     for(let j = 0; j < hannahsFollowers2.length; j++){
+//         if(bobsFollowers2[i] === hannahsFollowers2[j]){
+//             console.log(hannahsFollowers2[j])
+//         }
+//     }
+// }
 
 //Activity 7
 // Loops
@@ -210,3 +223,5 @@ for(let i = 0; i < bobsFollowers.length; i++){
 // e.g. for (let i = 0; i >=10; i++)
 // while – great for running a loop until a defined condition is reached (starting  point may be unknown or variable)
 // do... while great for running a loop where the outcome is defined
+
+
