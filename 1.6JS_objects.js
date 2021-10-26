@@ -55,39 +55,37 @@
 // }
 // console.log(alarm)
 
-//Activity 3 - CoffeeShop
+//Activity 3 - CoffeeShop - struggles a lot with this one. I can understand most of Johns code, but not all of it.
 
+// // const coffeeShop = {
+//     branch : 'Chester',
+//     drinkTea : 1,
+//     drinkWater: 0.5,
+//     drinkCoffee: 2,
+//     foodBurger: 5
+//     foodPizza: 4
+//     foodFries: 3,
+//     drinksOrdered (){
+//         return (`Your order is ${this.drinkTea} and is £${coffee}.`)
+//             },
+//     foodOrdered (){
 
-
-// const coffeeShop = {
-    branch : 'Chester',
-    drinkTea : 1,
-    drinkWater: 0.5,
-    drinkCoffee: 2,
-    foodBurger: 5
-    foodPizza: 4
-    foodFries: 3,
-    drinksOrdered (){
-        return (`Your order is ${this.drinkTea} and is £${coffee}.`)
-            },
-    foodOrdered (){
-
-    }
+//     }
     
-    eat(){
-        return (`${this.name} is eating.`)
-    },
-    drink(){
-        return (`${this.name} is drinking.`)
-    }
-}
-console.log(pet.eat())
-console.log(pet["drink"]())
+//     eat(){
+//         return (`${this.name} is eating.`)
+//     },
+//     drink(){
+//         return (`${this.name} is drinking.`)
+//     }
+// }
+// console.log(pet.eat())
+// console.log(pet["drink"]())
 
-let order =  (`${drinksOrdered} + ${foodOrdered}`)
+// let order =  (`${drinksOrdered} + ${foodOrdered}`)
 
 
-console.log(Your order is) //all items priced individaully and then with total
+// console.log(Your order is) //all items priced individaully and then with total
 
 
 //console.log(coffeeShop.drinksOrdered())
@@ -108,5 +106,38 @@ console.log(Your order is) //all items priced individaully and then with total
 // cashWithdrawal(1221, balance, 1250, 50449921)
 // cashWithdrawal(1222, balance, 1250, 50449921)
 
+//Code from John @CN
 
+// let coffeeShop = {
+//     branch: 'Costa',
+//     drinks: ['Coffee', 2.50, 'Tea', 1.50, 'Hot Chocolate', 3],
+//     food: ['Croissant', 3.50, 'Sandwich', 2],
+//     drinksOrdered(drink){
+//         let order = ''
+//         let cost = 0
+//         for(let i = 0; i < drink.length; i++){
+//             for(let j = 0; j < this.drinks.length; j++){
+//                 if(drink[i] === this.drinks[j]){
+//                     cost += this.drinks[j + 1]
+//                     order = order + ` = ${drink[i]} £${this.drinks[j + 1]} = `
+//                 }
+//             }
+//         }
+//         return `Drink  ${order}\nCost  -  £${cost}\n`
+//     },
+//     foodOrdered(food){
+//         let order = ''
+//         let cost = 0
+//         for(let i = 0; i < food.length; i++){
+//             for(let j = 0; j < this.food.length; j++){
+//                 if(food[i] === this.food[j]){
+//                     cost += this.food[j + 1]
+//                     order = order + ` = ${food[i]} £${this.food[j + 1]} = `
+//                 }
+//             }
+//         }
+//         return `Food  ${order}\nCost  -  £${cost}\n`
+//     }
+// }
 
+// console.log(coffeeShop.foodOrdered(['Croissant', 'Sandwich']), coffeeShop.drinksOrdered(['Coffee', 'Tea']))

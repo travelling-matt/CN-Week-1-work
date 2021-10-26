@@ -179,7 +179,7 @@ for (let i = 0; i < 6; i++) {
 }
 */
 
-//Activity 6 - Mutual followers - works
+//Activity 6 - Mutual followers - works - more research done on nested loops to improve code (below first code).
 // let bobsFollowers = [
 //     "Bill",
 //     "Ben",

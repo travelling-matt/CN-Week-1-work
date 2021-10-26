@@ -97,7 +97,7 @@ if(password.length < 8){
     console.log("Password is too short!");
 }
 else{
-    vowel.log(`${password}`);
+    console.log(`${password}`);
 }
 */
 
@@ -154,7 +154,7 @@ else {
 }
 */
 
-//Activity 7 - last vowel - struggled, reverse engineered
+//Activity 7 - last vowel - from CN - struggled, reverse engineered
 
 // let word = "jrfndklhgfndjkjlkgperfijfhdknsadcvjhiiohjfkledsopiuhgtyujwsdxcvhgfdjhiopiwquhejkdsoiufghedjwshi";
 // let vowelArr = ['a', 'e', 'i', 'o', 'u'];
